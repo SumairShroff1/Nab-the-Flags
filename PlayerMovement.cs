@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 2f;       // Швидкість руху гравця
-    public float jumpForce = 4.5f;   // Сила стрибка
+    public float speed = 2f;       
+    public float jumpForce = 4.5f;   
     public float groundCheckDistance = 0.3f;
     public LayerMask groundLayer;
     public GameObject feet;
